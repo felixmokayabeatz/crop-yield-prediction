@@ -8,7 +8,6 @@ model = joblib.load("best_crop_yield_model.pkl")
 st.set_page_config(page_title="Crop Yield Predictor", layout="wide")
 st.title("🌾 Crop Yield Prediction App")
 
-
 st.markdown(
     """
     <style>
